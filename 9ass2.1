@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+   int a=5;
+   int *p;
+   p=&a;
+   printf("variable address:%u",p);
+   p=p+1;
+   printf("\n variable address:%u",p);
+   p=p+3;
+   printf("\n variable address:%u",p);
+   p=p-1;
+    printf("\n variable address:%u",p);
+   p=p-2;
+   printf("\n variable address:%u",p);
+}
